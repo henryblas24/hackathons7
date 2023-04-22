@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #cbc3c3;
+}
+.columna1 {
+    max-width: 413px;
+    background-color: white;
+}
+
+.sect1 {
+    margin-top: 15px;
+    padding: 15px;
+    margin-left: 10px;
+    background-color: white;
+    
+}
+.sect1 > h1,h4,p {
+    font-family: monserrat; 
+}
+
+img {
+    width: 100%;
+}
+
+.sect2 h2 {
+    margin-top: 40px;
+    margin-left: 20px; 
+}
+.marca {
+   display: flex;
+}
+
+.logo {
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 84px;
+    margin-bottom: 15px;
+}
+.text {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 25px;
+}
